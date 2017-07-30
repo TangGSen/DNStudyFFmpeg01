@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="sen.com.dnstudyffmpeg01.MainActivity">
+
+        <Button
+            android:id="@+id/diff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="diffFile"
+            android:text="文件拆分" />
+
+        <Button
+            android:id="@+id/patch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="patchFile"
+            android:text="文件合并" />
+
+    </LinearLayout>
+</ScrollView>
